@@ -10,6 +10,6 @@ on:
 
 jobs:
   semantic-release:
-    uses: adfinis/github-workflows-bareos/.github/workflows/semantic-release.yaml@chore/semrel/tagFormat
+    uses: adfinis/github-workflows-bareos/.github/workflows/semantic-release.yaml@latest
     secrets:
       ADFINISBOT_GITHUB_TOKEN: ${{ secrets.ADFINISBOT_GITHUB_TOKEN }}
